@@ -1,0 +1,27 @@
+# Python
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+**/.venv/
+**/venv/
+**/ENV/
+**/env/
+**/.env
+**/.env.*
+!**/.env.example
+
+# Next.js
+**/.next/
+**/node_modules/
+**/out/
+**/build/
+**/.DS_Store
+
+# Project specific
+**/faiss_indexes/
+**/tectonic.exe
+**/ai_researcher_downloads/
+**/tmp/
+**/temp/
+**/logs/
+**/*.log

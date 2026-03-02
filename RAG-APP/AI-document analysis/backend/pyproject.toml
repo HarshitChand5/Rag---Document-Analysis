@@ -1,0 +1,30 @@
+[project]
+name = "ai-researcher"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiofiles>=25.1.0",
+    "faiss-cpu>=1.12.0",
+    "fastapi>=0.121.2",
+    "google-genai>=1.50.1",
+    "huggingface-hub>=0.24.0",
+    "langchain>=1.0.7",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.0.5",
+    "langchain-google-genai>=3.0.3",
+    "langchain-groq>=1.0.1",
+    "langchain-huggingface>=1.0.1",
+    "langchain-text-splitters>=1.0.0",
+    "langgraph>=1.0.3",
+    "pydantic>=2.12.4",
+    "pypdf>=6.3.0",
+    "pypdf2>=3.0.1",
+    "python-dotenv>=1.2.1",
+    "python-multipart>=0.0.20",
+    "requests>=2.32.5",
+    "sentence-transformers>=3.0.0",
+    "typing-extensions>=4.15.0",
+    "uvicorn>=0.38.0",
+]

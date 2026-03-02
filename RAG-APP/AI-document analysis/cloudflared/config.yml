@@ -1,0 +1,14 @@
+tunnel: <TUNNEL_ID>
+credentials-file: C:\Users\Harshit05\.cloudflared\<TUNNEL_ID>.json
+
+ingress:
+  # Frontend (Next.js)
+  - hostname: research.yourdomain.com
+    service: http://localhost:3000
+  
+  # Backend (FastAPI)
+  - hostname: api-research.yourdomain.com
+    service: http://localhost:8000
+  
+  # Default rule (404)
+  - service: http_status:404
